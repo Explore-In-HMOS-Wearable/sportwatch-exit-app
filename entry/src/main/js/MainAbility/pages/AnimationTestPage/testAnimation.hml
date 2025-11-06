@@ -1,0 +1,42 @@
+<div class="container">
+
+    <text
+            class="titleText">
+        Exit Animation Page
+    </text>
+
+
+    <text
+            class="descText">
+        Swipe right to trigger the exit animation below.
+        This animation demonstrates how the page exits when onSwipe is detected.
+    </text>
+
+    <text
+            class="descText"
+            onclick="returnIndex">
+        If the feature does not function as expected, it may be due to limited support on certain devices outside the index page. Please click here to return to the index page and try again.
+
+    </text>
+
+
+    <div
+            style="animation-name: {{ exitAnim }};
+                    animation-duration: 200ms;
+                    animation-fill-mode: forwards;"
+            onswipe="onSwipe">
+
+        <text
+                class="text">
+            {{$t('strings.trigger')}}
+        </text>
+
+
+        <text
+                onclick="setRoute"
+                class="text2">
+            {{$t('strings.takeSurvey')}}
+        </text>
+
+    </div>
+</div>

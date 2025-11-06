@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "hello",
+      "value": "Hello"
+    },
+    {
+      "name": "world",
+      "value": "World"
+    },
+    {
+      "name": "takeSurvey",
+      "value": "Take the survey"
+    },
+    {
+      "name": "trigger",
+      "value": "Swipe right to exit and trigger the animation"
+    },
+    {
+      "name": "submittedValues",
+      "value": "Submitted Values"
+    },
+    {
+      "name": "back",
+      "value": "Go Back"
+    },
+    {
+      "name": "submittedInput",
+      "value": "Submitted Input:"
+    },
+    {
+      "name": "submittedValue",
+      "value": "Submitted Slider Value:"
+    },
+    {
+      "name": "submit",
+      "value": "Submit"
+    },
+    {
+      "name": "back2",
+      "value": "Go Back"
+    },
+    {
+      "name": "adjust",
+      "value": "Adjust the slider value below"
+    },
+    {
+      "name": "lastRoute",
+      "value": "Route back to Test Animation"
+    }
+  ]
+}

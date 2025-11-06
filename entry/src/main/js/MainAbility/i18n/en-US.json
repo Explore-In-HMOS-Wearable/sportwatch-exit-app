@@ -1,0 +1,16 @@
+{
+  "strings": {
+    "hello": "Hello",
+    "world": "World",
+    "takeSurvey": "Take the survey",
+    "trigger": "Swipe right to exit and trigger the animation",
+    "submittedValues": "Submitted Values",
+    "back": "Go Back",
+    "submittedInput": "Submitted Input:",
+    "submittedValue": "Submitted Slider Value:",
+    "submit": "Submit",
+    "back2": "Go Back",
+    "adjust": "Adjust the slider value below",
+    "lastRoute": "Test Animation"
+  }
+}

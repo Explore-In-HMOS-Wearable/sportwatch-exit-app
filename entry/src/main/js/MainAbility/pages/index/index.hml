@@ -1,0 +1,26 @@
+<div class="container">
+    <div
+            class="card"
+            style="animation-name: {{ exitAnim }};
+                    animation-duration: 200ms; animation-fill-mode: forwards;"
+            onswipe="onSwipe">
+
+        <text
+                class="text">
+            {{$t('strings.trigger')}}
+
+        </text>
+
+        <image class="arrow"
+               src="/common/media/arrow.png"></image>
+
+
+        <text
+                onclick="setRoute"
+                class="text2">
+            {{$t('strings.takeSurvey')}}
+        </text>
+
+
+    </div>
+</div>

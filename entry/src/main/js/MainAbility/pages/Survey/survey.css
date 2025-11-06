@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F3F5;
+}
+
+.survey-card {
+    width: 466px;
+    height: 466px;
+    background-color: #1B3C53;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 233px;
+}
+
+.text {
+    color: #D2C1B6;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.slider {
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #456882;
+    border-radius: 20px;
+}
+
+.textInput {
+
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #456882;
+    border-radius: 10px;
+
+}
+
+
+.buttonBack {
+    width: 200px;
+    height: 60px;
+    background-color: #D2C1B6;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.2s;
+}
+
+.buttonBack:active {
+    background-color: #1B3C53;
+}
+
+.buttonText {
+    color: #1B3C53;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.buttonSubmit {
+    width: 160px;
+    height: 60px;
+    background-color: #D2C1B6;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.buttonSubmit:active {
+    background-color: #218838;
+    transform: scale(0.97);
+}
+
+.buttonText {
+    color: #1B3C53;
+    font-size: 25px;
+    font-weight: 600;
+}
+

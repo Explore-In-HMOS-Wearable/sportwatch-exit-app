@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="survey-card">
+        <text
+                class="title">
+            {{$t('strings.submittedValues')}}
+        </text>
+        <text
+                class="textSlider">
+            {{$t('strings.submittedValue')}} {{ submittedSlider }}
+        </text>
+        <text
+                class="textInput">
+            {{$t('strings.submittedInput')}} {{ submittedInput }}
+        </text>
+
+        <div
+                class="buttonBack"
+                onclick="routeBack">
+            <text
+                    class="buttonText">
+                {{$t('strings.back')}}</text>
+        </div>
+
+        <div
+                class="lastRouter"
+                onclick="lastRouteToIndex">
+            <text
+
+                    class="buttonText">
+                {{$t("strings.lastRoute")}}</text>
+
+        </div>
+
+
+    </div>
+</div>

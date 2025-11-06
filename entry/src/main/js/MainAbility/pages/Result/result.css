@@ -1,0 +1,108 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.survey-card {
+    width: 466px;
+    height: 466px;
+    background-color: #1B3C53;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 233px;
+}
+
+.textSlider {
+
+    color: #D2C1B6;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+    opacity: 1;
+    text-align: center;
+
+}
+
+.textInput {
+    color: #D2C1B6;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+    opacity: 1;
+    text-align: center;
+}
+
+.slider {
+
+    width: 80%;
+    height: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: dimgrey;
+    border-radius: 10px;
+
+}
+
+.title {
+
+    font-size: 36px;
+    color: #D2C1B6;
+    justify-content: center;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+
+.textRouter {
+
+    color: yellow;
+    font-size: 30px;
+    margin-bottom: 35px;
+    opacity: 1;
+    text-align: center;
+    align-items: center;
+
+}
+
+.buttonBack {
+    width: 180px;
+    height: 60px;
+    background-color: #D2C1B6;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.2s;
+}
+
+.buttonBack:active {
+    background-color: #1B3C53;
+}
+
+.buttonText {
+    color: #1B3C53;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.lastRouter{
+
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #D2C1B6;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: background-color 0.2s;
+
+}

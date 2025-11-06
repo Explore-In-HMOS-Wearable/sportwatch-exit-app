@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="survey-card">
+        <text
+                class="text">
+            {{$t('strings.adjust')}}
+        </text>
+
+        <text>
+            {{ sliderVal }}
+        </text>
+
+        <slider
+                class="slider"
+                min="0"
+                max="100"
+                value="50"
+                step="2"
+                mode="inset"
+                showtips="true"
+                onchange="sliderValue">
+        </slider>
+
+        <input
+                type="text"
+                class="textInput"
+                value="Enter Text..."
+                onchange="textValue">
+
+        </input>
+
+        <div class="buttonSubmit"
+             onclick="routeSubmit">
+            <text class="buttonText">
+                {{$t('strings.submit')}}
+            </text>
+        </div>
+
+
+
+        <div class="buttonBack"
+             onclick="routeBack">
+            <text
+                    class="buttonText">
+                {{$t('strings.back2')}}
+            </text>
+        </div>
+
+
+
+    </div>
+
+</div>
