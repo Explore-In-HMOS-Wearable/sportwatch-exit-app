@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.ExitAnimation",
+    "bundleName": "com.hmosdemos.lite_wearable.sport_watch_exit_animation",
     "vendor": "hmosdemos",
     "version": {
       "code": 1000000,

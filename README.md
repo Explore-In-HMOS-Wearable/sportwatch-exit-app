@@ -8,12 +8,12 @@ The animation is implemented using **@keyframes**, allowing a smooth and visuall
 
 # Preview
 
-<p align="left">
-  <img src="screenshots/o1.png" width="24%">
-  <img src="screenshots/o2.png" width="24%">
-  <img src="screenshots/o3.png" width="24%">
-  <img src="screenshots/o4.gif" width="24%">
-</p>
+<div>
+  <img src="screenshots/o1.png" width="23%">
+  <img src="screenshots/o2.png" width="23%">
+  <img src="screenshots/o3.png" width="23%">
+  <img src="screenshots/o4.gif" width="23%">
+</div>
 
 ---
 
@@ -67,7 +67,7 @@ ExitAnimationApp allows users to:
 -Huawei Sport (Lite) Ultimate
 
 
-# LICENSE
+# License
 
 ExitAnimationApp is distributed under the terms of the MIT License.  
 See the [LICENSE](/LICENSE) for more information.

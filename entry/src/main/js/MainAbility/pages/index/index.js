@@ -5,7 +5,7 @@ export default {
     data: { exitAnim: 'none' },
 
     onSwipe(e) {
-        if (e.direction == "right") {
+        if (e.direction === 'right') {
             this.exitAnim = 'shrinkCenter'
             setTimeout(() => app.terminate(), 200);
         }

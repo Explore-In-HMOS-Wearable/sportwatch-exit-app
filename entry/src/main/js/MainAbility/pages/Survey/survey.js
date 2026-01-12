@@ -3,7 +3,7 @@ import router from '@ohos.router';
 export default {
     data: {
 
-        text: "text",
+        text: 'text',
         value: 0,
         startValue: 0,
         currentValue: 0,
@@ -12,7 +12,7 @@ export default {
     },
 
     sliderVal: Number = 0,
-    inputVal: String = "",
+    inputVal: String = '',
 
     routeBack() {
         router.replace({
@@ -39,15 +39,15 @@ export default {
     },
 
     setValue(e) {
-        if (e.mode == "start") {
+        if (e.mode === 'start') {
             this.value = e.value;
             this.startValue = e.value;
 
-        } else if (e.mode == "move") {
+        } else if (e.mode === 'move') {
             this.value = e.value;
             this.currentValue = e.value;
 
-        } else if (e.mode == "end") {
+        } else if (e.mode === 'end') {
             this.value = e.value;
             this.endValue = e.value;
         }
