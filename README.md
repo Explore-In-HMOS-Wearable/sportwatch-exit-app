@@ -9,10 +9,10 @@ The animation is implemented using **@keyframes**, allowing a smooth and visuall
 # Preview
 
 <div>
+  <img src="screenshots/o4.gif" width="23%">
   <img src="screenshots/o1.png" width="23%">
   <img src="screenshots/o2.png" width="23%">
   <img src="screenshots/o3.png" width="23%">
-  <img src="screenshots/o4.gif" width="23%">
 </div>
 
 ---
